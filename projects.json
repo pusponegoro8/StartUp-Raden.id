@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "title": "Ecommerce Toko Online Lengkap",
+      "tags": ["PHP", "MySQL", "Admin Panel"],
+      "description": "Sistem toko online full-featured: cart, checkout, payment gateway ready, dashboard admin.",
+      "url": "../ecommerce/",
+      "github": "https://github.com/pusponegoro8"
+    },
+    {
+      "title": "Sistem Absensi Sekolah Digital",
+      "tags": ["PHP", "QR Code", "Dashboard"],
+      "description": "Absensi modern dengan scan QR, attendance reports, siswa management realtime.",
+      "url": "../absensi_project_full_v2/"
+    },
+    {
+      "title": "Pisang Goreng Ceisya Rasa POS",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "description": "Website & POS system untuk bisnis makanan dengan ordering dan inventory.",
+      "url": "../POS_Pisang_Goreng_Ceisya_Rasa_PREMIUM_FINAL/"
+    },
+    {
+      "title": "Cafe Dorame Restaurant Site",
+      "tags": ["Responsive", "Booking", "Menu"],
+      "description": "Restaurant website dengan menu digital, reservation system, cart.",
+      "url": "../cafe-dorame/"
+    },
+    {
+      "title": "Portfolio Personal Advanced",
+      "tags": ["HTML5", "CSS3", "Animations"],
+      "description": "Modern portfolio dengan dark/light theme, glassmorphism, smooth interactions.",
+      "url": "../website_pribadi_lengkap SAGA2403/"
+    },
+    {
+      "title": "Landing Page Custom",
+      "tags": ["GSAP", "Scroll Animations"],
+      "description": "High-converting landing pages untuk product launch dan events.",
+      "url": "#contact"
+    }
+  ]
+}
+

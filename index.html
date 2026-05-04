@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Raden Issaga Pusponegoro | Desainer & Developer Startup</title>
+  <meta name="description" content="Portfolio lengkap Raden Issaga Pusponegoro - Desain grafis, web development, ecommerce, sistem absensi dari Jombang. Siap kerjasama project startup Anda!">
+  <meta name="keywords" content="desain grafis, web developer, jombang, freelance, ecommerce, portfolio, raden issaga">
+  <meta property="og:title" content="Raden Issaga Pusponegoro - Startup Ready">
+  <meta property="og:description" content="Desainer & Developer dari Jombang. Layanan: Website, Desain, Editing, Sistem Custom.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>">
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#hero">Hello,Selamat Datang di <span class="accent">Startup Raden.id</span></a>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="mainNav" class="nav">
+        <a href="#about">Tentang</a>
+        <a href="#services">Layanan</a>
+        <a href="#projects">Proyek</a>
+        <a href="#social">Sosial</a>
+        <a href="#contact">Kontak</a>
+        <button id="themeToggle" class="btn-small" title="Toggle Theme">🌗</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero container">
+      <div class="hero-text">
+        <div class="hero-badges">
+          <span class="badge">Freelance Expert</span>
+          <span class="badge gold">Jombang City</span>
+        </div>
+        <h1 class="hero-title">Raden Issaga Pusponegoro</h1>
+        <p class="lead hero-subtitle">Creative Director & Full-Stack Developer<br><small>50+ Projects Delivered | Startup Specialist</small></p>
+
+        <div class="hero-cta">
+          <a class="btn" href="#contact">Mulai Project</a>
+          <a class="btn-outline" href="#projects">Lihat Portofolio</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="logoRaden.id.png" alt="Raden Issaga Pusponegoro" loading="lazy">
+      </div>
+    </section>
+
+    <section id="about" class="container card">
+      <h2>Tentang Saya</h2>
+      <p>Freelancer berpengalaman dari Jombang, spesialisasi membangun solusi digital untuk startup dan UMKM. Dari desain logo hingga sistem ecommerce lengkap.</p>
+      <p>Lulusan MAN 8 Jombang dengan passion di creative tech. Sudah handle 50+ project: website, branding, editing, fotografi.</p>
+      <ul class="skills">
+        <li><i class="fab fa-html5"></i> HTML/CSS/JS Modern</li>
+        <li><i class="fab fa-php"></i> PHP & MySQL</li>
+        <li><i class="fab fa-react"></i> Frontend Frameworks</li>
+        <li><i class="fas fa-paint-brush"></i> Photoshop/Illustrator</li>
+        <li><i class="fas fa-mobile-alt"></i> Mobile Responsive</li>
+        <li><i class="fas fa-rocket"></i> Startup Solutions</li>
+      </ul>
+      <div style="margin-top:24px;">
+        <a class="btn-outline" href="resume.md" target="_blank">Lihat Resume →</a>
+      </div>
+    </section>
+
+    <section id="services" class="container">
+      <h2>Layanan Startup</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Website & App</h3>
+          <p>Landing page, ecommerce, dashboard admin, PWA.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-paint-brush"></i>
+          <h3>Desain Grafis</h3>
+          <p>Logo, poster, UI/UX, branding lengkap.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-video"></i>
+          <h3>Video & Photo</h3>
+          <p>Editing profesional, fotografi product/event.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-chart-line"></i>
+          <h3>Digital Marketing</h3>
+          <p>Sosmed management, SEO, content strategy.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-database"></i>
+          <h3>Sistem Custom</h3>
+          <p>Absensi, inventory, CRM sederhana.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-rocket"></i>
+          <h3>Startup Package</h3>
+          <p>Branding + website + marketing awal.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>Portofolio Terpilih</h2>
+      <div id="projectsGrid" class="grid"></div>
+    </section>
+
+    <section id="stats" class="container stats-section">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number" data-target="50">0</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="8200">0</div>
+          <div class="stat-label">Social Reach</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="24">0</div>
+          <div class="stat-label">Hour Response</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="100">0</div>
+          <div class="stat-label">% Satisfaction</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="container">
+      <h2>What Clients Say</h2>
+      <div class="testimonial-slider">
+        <div class="testimonial active">
+          <div class="testimonial-content">"Raden delivered our ecommerce site on time with amazing design. Highly recommend for startups!"</div>
+          <div class="testimonial-author">- Cafe Owner, Jombang</div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-content">"Professional absensi system that saved our school hours of manual work. 5 stars!"</div>
+          <div class="testimonial-author">- School Principal</div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-content">"Branding package transformed our small business identity. Creative genius!"</div>
+          <div class="testimonial-author">- UMKM Entrepreneur</div>
+        </div>
+      </div>
+      <div class="slider-nav">
+        <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </section>
+
+    <section id="pricing" class="container">
+      <h2>Pricing Packages</h2>
+      <p class="section-lead">Pilih package sesuai kebutuhan startup Anda</p>
+      <div class="pricing-grid">
+        <div class="price-card">
+          <h3>Starter</h3>
+          <div class="price">Rp 1.5jt</div>
+          <ul>
+            <li>Landing Page</li>
+            <li>Basic Design</li>
+            <li>Mobile Responsive</li>
+            <li>1 Revision</li>
+          </ul>
+          <a href="#contact" class="btn">Choose Starter</a>
+        </div>
+        <div class="price-card popular">
+          <div class="popular-badge">Most Popular</div>
+          <h3>Professional</h3>
+          <div class="price">Rp 4.5jt</div>
+          <ul>
+            <li>Full Website</li>
+            <li>Ecommerce Ready</li>
+            <li>Custom Features</li>
+            <li>Unlimited Revisions</li>
+            <li>SEO Optimized</li>
+          </ul>
+          <a href="#contact" class="btn">Choose Pro <i class="fas fa-crown"></i></a>
+        </div>
+        <div class="price-card">
+          <h3>Enterprise</h3>
+          <div class="price">Rp 10jt+</div>
+          <ul>
+            <li>Custom System</li>
+            <li>Backend + Admin</li>
+            <li>Branding Full</li>
+            <li>Maintenance 6bln</li>
+            <li>Dedicated Support</li>
+          </ul>
+          <a href="#contact" class="btn">Contact Enterprise</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="social" class="container">
+      <h2>Ikuti Di Sosial Media</h2>
+      <p>Update project, tutorial desain, dan tips startup setiap hari!</p>
+      <div class="social-grid">
+        <div class="social-card instagram">
+          <i class="fab fa-instagram"></i>
+          <h3>Instagram</h3>
+          <p>@rdn_issaga</p>
+          <a href="https://www.instagram.com/rdn_issaga/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i></a>
+          <span class="stats">568 Followers</span>
+        </div>
+        <div class="social-card x">
+          <i class="fab fa-linkedin"></i>
+          <h3>Linkedin</h3>
+          <p>Raden Issaga Pusponegoro</p>
+          <a href="https://www.linkedin.com/in/raden-issaga-pusponegoro-604a74216/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i></a>
+          <span class="stats">21 Koneksi</span>
+        </div>
+        <div class="social-card youtube">
+          <i class="fab fa-youtube"></i>
+          <h3>YouTube</h3>
+          <p>@coretan_raden91</p>
+          <a href="https://youtube.com/@coretan_raden91" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i></a>
+          <span class="stats">21 Subscribers</span>
+        </div>
+        <div class="social-card whatsapp">
+          <i class="fab fa-whatsapp"></i>
+          <h3>WhatsApp</h3>
+          <p>Chat Bisnis</p>
+          <a href="https://wa.me/6281249366349" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i></a>
+          <span class="stats">Fast Response</span>
+        </div>
+        <div class="social-card github">
+          <i class="fab fa-github"></i>
+          <h3>GitHub</h3>
+          <p>radenissaga</p>
+          <a href="https://github.com/pusponegoro8" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i></a>
+          <span class="stats">10+ Projects</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container card">
+      <h2>Siap Kerjasama?</h2>
+      <p>Kirim brief project Anda - response dalam 24 jam!</p>
+      <form id="contactForm">
+        <label>
+          Nama
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          Email/WA
+          <input type="tel" name="contact" placeholder="081xxxxxxxxx atau email@example.com" required>
+        </label>
+        <label>
+          Project Brief
+          <textarea name="message" rows="4" placeholder="Jenis project? Budget? Deadline?" required></textarea>
+        </label>
+        <button type="submit" class="btn">Start Project <i class="fas fa-rocket"></i></button>
+      </form>
+      <div class="newsletter">
+        <h4>Stay Updated</h4>
+        <p>Get desain tips & startup updates</p>
+        <input type="email" placeholder="Your email" class="newsletter-input">
+        <button class="btn newsletter-btn">Subscribe</button>
+      </div>
+
+      <div class="contact-info">
+        <p><i class="fas fa-phone"></i> WA: <a href="https://wa.me/6281249366349">0812-4936-6349</a></p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:pusponegoro8@gmail.com">pusponegoro8@gmail.com</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> Jombang, Jawa Timur</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="social-footer">
+        <a href="https://instagram.com/rdn_issaga" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://facebook.com/radenissaga" title="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/radenissaga" title="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://wa.me/6281249366349" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <p>&copy; 2026 Raden Issaga Pusponegoro. Built with ❤️ for startups. <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
